@@ -10,8 +10,8 @@
 		"postinstall": "nuxt prepare",
 		"deploy": "npm run build && wrangler pages deploy",
 		"cf-typegen": "wrangler types",
-		"lint": "bunx @biomejs/biome lint ./ --write",
-		"format": "bunx @biomejs/biome format ./ --write",
+		"lint": "biome lint ./",
+		"format": "biome format ./ --write",
 		"update": "bunx npm-check-updates -ui"
 	},
 	"dependencies": {
