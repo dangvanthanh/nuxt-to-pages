@@ -21,7 +21,8 @@
 			"./.output/**",
 			"./.turbo/**",
 			"./.playground",
-			"./dist/**"
+			"./dist/**",
+      "worker-configuration.d.ts"
 		]
 	}
 }
