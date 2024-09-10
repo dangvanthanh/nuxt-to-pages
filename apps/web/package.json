@@ -15,14 +15,14 @@
 		"update": "bunx npm-check-updates -ui"
 	},
 	"dependencies": {
-		"nuxt": "^3.12.4",
+		"nuxt": "^3.13.1",
 		"vue": "latest",
 		"vue-router": "^4.4.3"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20240815.0",
+		"@cloudflare/workers-types": "^4.20240903.0",
 		"@repo/biome-config": "workspace:*",
 		"nitro-cloudflare-dev": "^0.1.6",
-		"wrangler": "^3.72.1"
+		"wrangler": "^3.75.0"
 	}
 }
